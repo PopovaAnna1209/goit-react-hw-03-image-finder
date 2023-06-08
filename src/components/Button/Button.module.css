@@ -1,14 +1,14 @@
 /*
 * Стили компонента Buton (Load more)
 */
-.Button-container {
+.button_container {
   display: flex;
   justify-content: center;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-.Button {
+.button {
   padding: 8px 16px;
   border-radius: 2px;
   background-color: #1294a5;
@@ -29,7 +29,7 @@
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
-.Button:hover,
-.Button:focus {
+.button:hover,
+.button:focus {
   background-color: #0b606b;
 }
